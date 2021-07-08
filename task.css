@@ -1,0 +1,525 @@
+/*menu*/
+
+.bg-light {
+    background-color: white !important;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.carousel-item img {
+    height: 37.5rem;
+}
+
+.last {
+    background-color: blue;
+    color: white !important;
+    padding: 1.25rem !important;
+}
+
+
+/*end menu*/
+
+
+/* section1 */
+
+.section1 {
+    background-image: url("images/im3.jpg");
+    background-repeat: no-repeat;
+    background-size: 116%;
+    margin-bottom: 150px;
+}
+
+.padding-section1 {
+    padding-top: 120px;
+}
+
+.section1 .row {
+    padding-bottom: 70px;
+    padding-left: 40px;
+}
+
+.section1 .row p:first-child {
+    color: #4141f6;
+}
+
+.section1 .row p:first-child::before {
+    content: "_______    "
+}
+
+.section1 .row h1 {
+    font-size: 41px;
+    font-weight: bold;
+    font-family: tahoma;
+    padding: 10px 0px;
+}
+
+.section1 .row p:nth-of-type(2) {
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.section1 .row a {
+    background-color: #4141f6;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+@media screen and (max-width:1200px) {
+    .section1 div pre {
+        margin-top: 20px;
+        /* font-size: 10px; */
+    }
+}
+
+@media screen and (max-width:990px) {
+    .section1 div h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .section1 div pre {
+        font-size: 13px;
+    }
+    .section1 {
+        background-size: 150%;
+    }
+    .section1 div h1 {
+        font-size: 20px;
+    }
+    .section1 div p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    /* .section1 div h1{
+        font-size: 20px;
+    } */
+    .section1 div pre {
+        font-size: 10;
+        margin-top: 20px;
+    }
+    .section1 div input {
+        width: 130px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .section1 {
+        background-size: 150%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .section1 div pre {
+        font-size: 10px;
+    }
+    .section1 {
+        background-size: 150%;
+    }
+    .section1 div h1 {
+        font-size: 15px;
+    }
+    .section1 div p {
+        font-size: 10px;
+    }
+}
+
+
+/* end section1 */
+
+
+/* section2 */
+
+.padding-section2 {
+    padding-top: 80px;
+}
+
+.section2 .row {
+    padding-bottom: 50px;
+}
+
+.section2 .row:first-child p:first-child {
+    color: #4141f6;
+}
+
+.section2 .row:first-child p:first-child::before {
+    content: "_________";
+}
+
+.section2 .row:nth-child(2) p {
+    line-height: 1.875rem;
+}
+
+.fas {
+    color: rgba(0, 0, 255, 0.712);
+    padding-bottom: 1.875rem;
+}
+
+
+/*end section2 */
+
+
+/* section3 */
+
+.about {
+    background-color: rgba(0, 0, 255, 0.712);
+    color: white;
+}
+
+.about .blockquote-footer {
+    color: white;
+}
+
+.about p:nth-child(2) {
+    color: black;
+}
+
+.about a {
+    color: white;
+    background-color: rgb(35 36 53);
+    padding: 15px;
+}
+
+.about a:hover {
+    color: rgb(212, 54, 54);
+}
+
+
+/* end section3 */
+
+
+/* section4 */
+
+.section4 {
+    background-color: rgb(224, 246, 210);
+}
+
+.fillup,
+.fillup .blockquote-footer {
+    color: white;
+}
+
+.fillup .container {
+    margin: 0 37px;
+}
+
+.fillup input[type="text"] {
+    width: 300px;
+    margin: 15px;
+}
+
+.section4 select {
+    height: 50px;
+}
+
+.fillup input[type="email"] {
+    width: 300px;
+    margin: 15px 0 27px 32px;
+}
+
+.fillup textarea {
+    width: 635px;
+}
+
+.fillup .bg-dark {
+    color: white;
+    width: 639px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .section4 .row {
+        padding: 10px;
+    }
+}
+
+
+/* end section4 */
+
+
+/* section5 */
+
+.section5 {
+    margin-bottom: 9.375rem;
+}
+
+.section5 .row div {
+    padding: 1.25rem;
+}
+
+#ddh6 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#dp1 {
+    color: #4141f6;
+}
+
+.section5 .card-body {
+    background-color: lightblue;
+    padding: 1.875rem;
+    margin-top: -2.5rem;
+}
+
+.section5 .row p::before {
+    content: "_________";
+}
+
+.section5 .row p {
+    color: #4141f6;
+}
+
+.section5 .row a {
+    padding-left: 1.25rem;
+}
+
+
+/* end section5 */
+
+
+/* section6 */
+
+.section6 {
+    background-image: url("images/im15.png");
+    background-repeat: no-repeat;
+}
+
+.section6 .row {
+    color: white;
+    padding: 3.125rem;
+    margin-bottom: 9.375rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section6 .row a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1.25rem 3.125rem;
+    margin-left: 3.125rem;
+}
+
+
+/* end section6 */
+
+
+/* section7 */
+
+.section7 .row p::before {
+    content: "_________";
+}
+
+.section7 .row p {
+    color: #4141f6;
+}
+
+.section7 .card-body {
+    background-color: rgb(232, 240, 243);
+    padding: 1.875rem;
+    padding-left: 2.5rem;
+    margin-bottom: 9.375rem;
+}
+
+
+/* end section7 */
+
+
+/*  section9 */
+
+.section9 .dcard {
+    background-color: white;
+    padding: 1.25rem;
+    text-align: center;
+    margin-top: -3.5rem;
+}
+
+.section9 .bcard {
+    background-color: rgb(232, 240, 243);
+    padding: 1.875rem;
+    padding-left: 2.5rem;
+    margin-bottom: 9.375rem;
+    margin-top: -70px;
+}
+
+.section9 .row p {
+    line-height: 2.1875rem;
+    margin-bottom: 3.125rem;
+}
+
+.section9 .row a::before {
+    content: "_________";
+}
+
+.section9 .row a {
+    color: #4141f6;
+    text-decoration: none;
+}
+
+.section9 .txt {
+    color: #4141f6;
+}
+
+.section10 {
+    background-image: url("images/im15.jpg");
+    color: white;
+}
+
+.section10 li a {
+    color: white !important;
+}
+
+.section10 .row a::before {
+    content: "";
+}
+
+.section10 .row a {
+    text-decoration: none;
+}
+
+.searching h1 {
+    color: white;
+}
+
+
+/* end searching */
+
+
+/*  strat footer */
+
+.footer {
+    background-image: url("/images/im14.jpg");
+    background-size: cover;
+}
+
+
+/* end footer */
+
+@media screen and (max-width:767px) {
+    /* start navbar */
+    /* end navbar */
+    /* Start Upper */
+    .section1 .blockquote-footer {
+        margin-top: 35px;
+        font-size: 10px;
+    }
+    .section1 h1 {
+        font-size: 20px;
+    }
+    .section1 p {
+        font-weight: 10px;
+        font-size: 7px;
+    }
+    /* End Upper */
+    /* Start section2 */
+    .section2 .blockquote-footer {
+        font-size: 10px;
+    }
+    .section2 h1 {
+        font-size: 18px;
+    }
+    .section2 .fas {
+        font-size: 30px;
+    }
+    .section2 .card-body h4 {
+        font-size: 13px;
+    }
+    .section2 .card-body p {
+        font-size: 10px;
+    }
+    .section2 .card-body a {
+        font-size: 10px;
+    }
+    /* End section2 */
+    /* Start About */
+    .about img {
+        height: 280px;
+    }
+    .about p {
+        font-size: 8px;
+    }
+    .about h1 {
+        font-size: 17px;
+    }
+    .about a {
+        padding: 2px;
+        margin: 3px 10px;
+        font-size: 6px;
+    }
+    /* End About */
+}
+
+
+/* Medium */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    /* Start Upper */
+    .blockquote-footer {
+        margin-top: 35px;
+        font-size: 12px;
+    }
+    .section1 h1 {
+        font-size: 20px;
+    }
+    .section1 p {
+        font-weight: 10px;
+        font-size: 12px;
+    }
+    /* End Upper */
+    /* Start section2 */
+    .section2 .blockquote-footer {
+        font-size: 12px;
+    }
+    .section2 h1 {
+        font-size: 20px;
+    }
+    .section2 .fas {
+        font-size: 32px;
+    }
+    .section2 .card-body h4 {
+        font-size: 15px;
+    }
+    .section2 .card-body p {
+        font-size: 12px;
+    }
+    .section2 .card-body a {
+        font-size: 12px;
+    }
+    /* End section2 */
+    /* Start About */
+    .about p {
+        font-size: 10px;
+    }
+    .about h1 {
+        font-size: 20px;
+    }
+    .about a {
+        padding: 4px;
+        margin: 5px 10px;
+        font-size: 9px;
+    }
+    /* End About */
+}
+
+
+/* Large -> ... */
+
+@media screen and (min-width:992px) {
+    /* Start Upper */
+    .section1 .row .blockquote-footer {
+        margin-top: 150px;
+        font-size: 24px;
+    }
+    .section1 h1 {
+        font-size: 40px;
+    }
+    .section1 p {
+        font-size: 20px;
+    }
+    /* End Upper */
+}
